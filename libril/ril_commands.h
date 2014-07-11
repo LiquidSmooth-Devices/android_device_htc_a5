@@ -22,7 +22,7 @@
     {RIL_REQUEST_ENTER_SIM_PUK2, dispatchStrings, responseInts},
     {RIL_REQUEST_CHANGE_SIM_PIN, dispatchStrings, responseInts},
     {RIL_REQUEST_CHANGE_SIM_PIN2, dispatchStrings, responseInts},
-    {RIL_REQUEST_ENTER_NETWORK_DEPERSONALIZATION, dispatchStrings, responseInts},
+    {RIL_REQUEST_ENTER_DEPERSONALIZATION_CODE, dispatchStrings, responseInts},
     {RIL_REQUEST_GET_CURRENT_CALLS, dispatchVoid, responseCallList},
     {RIL_REQUEST_DIAL, dispatchDial, responseVoid},
     {RIL_REQUEST_GET_IMSI, dispatchStrings, responseString},
@@ -130,3 +130,4 @@
     {RIL_REQUEST_SET_INITIAL_ATTACH_APN, dispatchSetInitialAttachApn, responseVoid},
     {RIL_REQUEST_IMS_REGISTRATION_STATE, dispatchVoid, responseInts},
     {RIL_REQUEST_IMS_SEND_SMS, dispatchImsSms, responseSMS},
+    {RIL_REQUEST_GET_DATA_CALL_PROFILE, dispatchInts, responseGetDataCallProfile},
