@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-TARGET_OTA_ASSERT_DEVICE := a5,a5dug,a5dwg,a5chl,a5ul
+TARGET_OTA_ASSERT_DEVICE := a5,a5chl,a5ul
 
 BOARD_VENDOR := htc
 
@@ -86,7 +86,6 @@ TARGET_POWERHAL_VARIANT := qcom
 
 # RIL
 BOARD_PROVIDES_LIBRIL := true
-BOARD_RIL_CLASS := ../../../device/htc/a5/ril/
 
 # RPC
 TARGET_NO_RPC := true
