@@ -12,14 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#
-# This file sets variables that control the way modules are built
-# thorughout the system. It should not be used to conditionally
-# disable makefiles (the proper mechanism to control what gets
-# included in a build is to use PRODUCT_PACKAGES in a product
-# definition file).
-#
-
 TARGET_OTA_ASSERT_DEVICE := a5,a5dug,a5dwg,a5chl,a5ul
 
 BOARD_VENDOR := htc
@@ -50,8 +42,10 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02008000 --tags_offset 0x01e00000
 BOARD_CUSTOM_BOOTIMG_MK := device/htc/a5/mkbootimg.mk
-TARGET_KERNEL_CONFIG := cm_a5_defconfig
+TARGET_KERNEL_CONFIG := liquid_a5_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/msm8974
+TARGET_GCC_VERSION_ARM := 4.10-sm
+TARGET_GCC_VERSION_AND := 4.8-sm
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
