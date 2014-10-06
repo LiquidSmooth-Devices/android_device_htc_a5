@@ -1,9 +1,9 @@
 [
   {
-    "remote": "lsd",
-    "repository": "android_kernel_htc_msm8974",
+    "remote": "gh",
+    "repository": "desire816-dev/android_kernel_htc_msm8974",
     "target_path": "kernel/htc/msm8974",
-    "revision": "kitkat"
+    "revision": "cm-11.0"
   },
   {
     "remote": "lsd",
@@ -24,10 +24,10 @@
     "revision": "kitkat"
   },
   {
-    "remote": "ls",
-    "repository": "android_vendor_htc",
+    "remote": "gh",
+    "repository": "desire816-dev/proprietary_vendor_htc",
     "target_path": "vendor/htc",
-    "revision": "kitkat"
+    "revision": "cm-11.0"
   },
   {
     "remote": "cm",
